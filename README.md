@@ -36,8 +36,10 @@ The workflow is as follows:
 - [x] Extracting and preprocessing OpenStreetMap data
 - [x] Building the MATSim network
 - [x] Processing census data to create a synthetic population
-- [x] Generating travel demand and activity plans
+- [x] Generating activity plans focusing on *Work* trips
+- [ ] Generating Transit Schedule from GTFS Feed
 - [ ] Running initial simulations for validation
+- [ ] Design scenarios to investigate active travel opportunities
 
 ---
 
