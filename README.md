@@ -1,1 +1,88 @@
-## Currently, using pt2matsim, the MATSim network can be generated for the study area. But, need to confirm whether the network allows bicycle to operate. Will need to play with the net_config.xml file a bit but specifying different params
+# MATSim Scenario: City of London
+
+## Overview
+
+This project contains the setup and generation of a MATSim scenario for the City of London. The goal is to create a realistic, data-driven transport simulation environment that can be used for analysis, experimentation, and planning.
+
+The scenario integrates demographic and geographic datasets to model travel demand and transport infrastructure within the City of London.
+
+---
+
+## Data Sources
+
+### 1. Census Data
+
+Population and socio-demographic characteristics are derived from official census datasets. These data are used to:
+
+* Generate synthetic populations
+* Define activity patterns (e.g., home, work, education)
+* Assign travel demand across the network
+
+### 2. OpenStreetMap (OSM)
+
+The transport network is based on data from OpenStreetMap. This includes:
+
+* Road networks
+* Transport infrastructure
+* Geographic layout of the City of London
+
+The OSM data is processed and converted into a MATSim-compatible network format.
+
+---
+
+## Scenario Generation
+
+The workflow for generating the scenario typically involves:
+
+1. Extracting and preprocessing OpenStreetMap data
+2. Building the MATSim network
+3. Processing census data to create a synthetic population
+4. Generating travel demand and activity plans
+5. Running initial simulations for validation
+
+---
+
+## Project Structure
+
+```
+.
+├── src/                # Source code for scenario generation
+├── config/             # MATSim configuration files
+├── data/               # Local datasets (ignored in version control)
+├── output/             # Simulation outputs
+└── README.md
+```
+
+> Note: The `data/` directory is not included in this repository due to file size and licensing constraints.
+
+---
+
+## Requirements
+
+* Java (compatible with MATSim)
+* MATSim framework
+* Additional dependencies as specified in the project
+
+---
+
+## Usage
+
+1. Prepare required datasets (Census and OpenStreetMap)
+2. Place them in the local `data/` directory
+3. Run the scenario generation scripts
+4. Execute the MATSim simulation using the provided configuration
+
+---
+
+## Notes
+
+* Large input datasets are excluded from version control and must be obtained separately.
+* Ensure that all data usage complies with the respective licensing terms.
+
+---
+
+## Acknowledgements
+
+* Census data providers
+* OpenStreetMap contributors
+* MATSim community
