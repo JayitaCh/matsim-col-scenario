@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project contains the setup and generation of a MATSim scenario for the City of London. The goal is to create a realistic, data-driven transport simulation environment that can be used for analysis, experimentation, and planning.
-
+This project contains the setup and generation of a MATSim scenario for the City of London. 
 The scenario integrates demographic and geographic datasets to model travel demand and transport infrastructure within the City of London.
 
 ---
@@ -27,6 +26,7 @@ The transport network is based on data from OpenStreetMap. This includes:
 
 The OSM data is processed and converted into a MATSim-compatible network format.
 
+### 3. GTFS Feed
 ---
 
 ## Scenario Generation
