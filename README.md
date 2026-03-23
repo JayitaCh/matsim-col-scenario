@@ -29,15 +29,15 @@ The OSM data is processed and converted into a MATSim-compatible network format.
 ### 3. GTFS Feed
 ---
 
-## Scenario Generation
+## Workflow
 
-The workflow for generating the scenario typically involves:
+The workflow is as follows:
 
-1. Extracting and preprocessing OpenStreetMap data
-2. Building the MATSim network
-3. Processing census data to create a synthetic population
-4. Generating travel demand and activity plans
-5. Running initial simulations for validation
+[x] 1. Extracting and preprocessing OpenStreetMap data
+[x] 2. Building the MATSim network
+[x] 3. Processing census data to create a synthetic population
+[x] 4. Generating travel demand and activity plans
+[ ] 5. Running initial simulations for validation
 
 ---
 
