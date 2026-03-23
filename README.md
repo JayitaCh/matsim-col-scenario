@@ -33,11 +33,11 @@ The OSM data is processed and converted into a MATSim-compatible network format.
 
 The workflow is as follows:
 
-[x] 1. Extracting and preprocessing OpenStreetMap data
-[x] 2. Building the MATSim network
-[x] 3. Processing census data to create a synthetic population
-[x] 4. Generating travel demand and activity plans
-[ ] 5. Running initial simulations for validation
+[x] Extracting and preprocessing OpenStreetMap data
+[x] Building the MATSim network
+[x] Processing census data to create a synthetic population
+[x] Generating travel demand and activity plans
+[ ] Running initial simulations for validation
 
 ---
 
