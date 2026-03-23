@@ -1,0 +1,1 @@
+## Currently, using pt2matsim, the MATSim network can be generated for the study area. But, need to confirm whether the network allows bicycle to operate. Will need to play with the net_config.xml file a bit but specifying different params
