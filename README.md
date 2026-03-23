@@ -41,21 +41,6 @@ The workflow for generating the scenario typically involves:
 
 ---
 
-## Project Structure
-
-```
-.
-├── src/                # Source code for scenario generation
-├── config/             # MATSim configuration files
-├── data/               # Local datasets (ignored in version control)
-├── output/             # Simulation outputs
-└── README.md
-```
-
-> Note: The `data/` directory is not included in this repository due to file size and licensing constraints.
-
----
-
 ## Requirements
 
 * Java (compatible with MATSim)
@@ -85,3 +70,5 @@ The workflow for generating the scenario typically involves:
 * Census data providers
 * OpenStreetMap contributors
 * MATSim community
+
+## Still under Development
