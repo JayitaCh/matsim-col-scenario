@@ -15,8 +15,7 @@ The scenario integrates demographic and geographic datasets to model travel dema
 Population and socio-demographic characteristics are derived from official census datasets. These data are used to:
 
 * Generate synthetic populations
-* Define activity patterns (e.g., home, work, education)
-* Assign travel demand across the network
+* Define activity patterns focusing on the Work location based on the OD Flow data from NOMIS
 
 ### 2. OpenStreetMap (OSM)
 
